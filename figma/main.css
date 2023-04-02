@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    height: 110px;
+}
+header > h1{
+    font-size: 64px;
+    color: #B88400;
+
+}
+nav{
+    display: flex;
+    flex-basis: 100%;
+}
+nav > button{
+    font-size: 32px;
+    height: 55px;
+    flex-basis: 25%;
+    color: #B88400;
+    background-color: #3F3F3F;
+    border: solid 2px #B88400;
+}
+
+.One{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #676767;
+    height: 160px;
+}
+.One > p{
+    font-size: 32px;
+}
+.Two{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D4D4D;
+    height: 85px;
+}
+.Two > p{
+    font-size: 32px;
+}
+.polecane{
+    background-color: #3F3F3F;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 317px;
+    justify-content: center;
+    align-items: center;
+}
+.imagines{
+    display: flex;
+    width: 372px;
+    height: 255px;
+}
+img{
+    border: #B88400 solid 2px;
+    flex-basis: 100%;
+}
+article > button{
+    font-size: 32px;
+    height: 94px;
+    flex-basis: 25%;
+    color: #B88400;
+    background-color: #3F3F3F;
+    border: solid 2px #B88400;
+}
+.mainC{
+    display: flex;
+    font-size: 32px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3F3F3F;
+    justify-content: center;
+    align-items: center;
+}
