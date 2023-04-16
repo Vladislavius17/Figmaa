@@ -11,6 +11,8 @@ header{
     height: 110px;
 }
 header > h1{
+    text-align: center;
+    flex-basis: 90%;
     font-size: 64px;
     color: #B88400;
 
@@ -19,13 +21,27 @@ nav{
     display: flex;
     flex-basis: 100%;
 }
-nav > button{
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+}
+li a{
+    text-decoration: none;
+    color: #B88400;
+}
+nav > ul > li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     font-size: 32px;
     height: 55px;
     flex-basis: 25%;
     color: #B88400;
     background-color: #3F3F3F;
     border: solid 2px #B88400;
+    text-align: center;
 }
 
 .One{
@@ -57,6 +73,7 @@ nav > button{
     flex-wrap: wrap;
     height: 317px;
     justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .imagines{
@@ -90,4 +107,110 @@ main{
     background-color: #3F3F3F;
     justify-content: center;
     align-items: center;
+}
+#fRepertuar{
+    height: 1800px;
+}
+.imaginesr{
+    display: flex;
+    height: 150px;
+    max-width: 305px;
+}
+.mainCr{
+    display: flex;
+    font-size: 24px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+.Rezerwujr{
+    font-size: 24px;
+    height: 75px;
+    flex-basis: 25%;
+    color: #B88400;
+    background-color: #3F3F3F;
+    border: solid 2px #B88400;
+}
+.oferta{
+    background-image: url(img/obraz_8.png);
+    background-size: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainCo{
+    display: flex;
+    font-size: 32px;
+    color: #B88400;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 70%;
+}
+.super{
+    font-size: 32px;
+    height: 94px;
+    flex-basis: 50%;
+    color: #B88400;
+    background-color: #3F3F3F;
+    border: solid 2px #B88400;
+}
+.Onastxt{
+    background-color: #3F3F3F;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 862px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    width: 110px;
+    padding: 0;
+    margin: 0;
+    height: 110px;
+    flex-direction: column;
+}
+.pasek{
+    display: flex;
+    flex-basis: 100%;
+    height: 20px;
+    background-color: #676767;
+}
+.account{
+    background-color: #ffffff;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 862px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: #BFBFBF;
+    height: 70px;
+    width: 300px;
+    border-radius: 90px;
+}
+.place{
+    background-color: #BFBFBF;
+    height: 70px;
+    width: 300px;
+    border-radius: 90px;
+    text-align: center;
+    font-size: 32px;
+}
+.placeUp{
+    text-align: center;
+    font-size: 32px;
 }
